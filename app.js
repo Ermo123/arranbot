@@ -1,7 +1,15 @@
-var port = process.env.PORT || 3000,
-    http = require('http'),
-    fs = require('fs'),
-    html = fs.readFileSync('Home.html');
+var port = process.env.PORT || 3000
+    http = require('http')
+    fs = require('fs')
+    //html = fs.readFileSync('Home.html');
+    app.get('/*', function(req,res) {
+        data= fs.readFile('/' + req.url,   function (err, data) {
+        res.setHeader('Content-Type', 'text/html');
+        res.send(data);
+    })});
+
+
+
 
 var log = function(entry) {
     fs.appendFileSync('/tmp/sample-app.log', new Date().toISOString() + ' - ' + entry + '\n');
