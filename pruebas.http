@@ -1,0 +1,7 @@
+POST https://u01kkrbbbd.execute-api.us-east-2.amazonaws.com/dev/arranbot-feedback
+Content-Type: application/json
+
+{
+    "queja":"beunas noches",
+    "usuario":"cono"
+}
