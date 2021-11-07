@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+  .navbar-custom {
+    background-color: #ff5500;
+  }
+
+  /* change the brand and text color */
+  .navbar-custom .navbar-brand,
+  .navbar-custom .navbar-text {
+    color: rgba(255, 255, 255, .8);
+  }
+
+  /* change the link color */
+  .navbar-custom .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, .5);
+  }
+
+  /* change the color of active or hovered links */
+  .navbar-custom .nav-item.active .nav-link,
+  .navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+  }
+
+  #someId .thumbnail {
+    display: inline-flex;
+  }
+
+  .center {
+    margin-left: 100px;
+    margin-right: 300px;
+    margin-top: 20px;
+  }
+
+  body {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEXfpaQjZGCKAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  th,
+  td {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  .tg td {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+  }
+
+  .tg th {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+  }
+
+  .tg .tg-4nuk {
+    background-color: #33363B;
+    color: #CACACA;
+    text-align: left;
+    vertical-align: middle
+  }
+
+  .tg .tg-akhx {
+    background-color: #36393E;
+    color: #CACACA;
+    text-align: left;
+    vertical-align: middle
+  }
+
+  .tg .tg-rz7c {
+    background-color: #4B5058;
+    color: #F5F5F5;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle
+  }
+</style>
+
+<head>
+  <title>Commands</title>
+  <!--meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+  <!-- Bootstrap CSS-->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!-- NAVBAR HOME-->
+  <nav class="navbar navbar-expand-sm navbar-custom" style="background-color: #d00f66;">
+    <img class="navbar-brand" style="color: #d00f66;" href="#" src="/kirbydjcirculo.png"
+      width="50" height="50"></img>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+        class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="Home.html">ArranBot     
+                                                                                                                                                                                                                                                       <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item text-right">
+          <a class="nav-link text-right" href="feedback.html">Feedback</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"
+            href="https://discord.com/api/oauth2/authorize?client_id=888482763827720262&permissions=8&scope=bot">Add to
+            discord</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <h1 class="center">Welcome to ArranBot Docs</h1>
+  <p class="center">ArranBot is a free Discord music bot that delivers high-quality music to your Discord server.
+    ArranBot can be easily plugged into your Discord server with no configuration.</p>
+  <h4 class="center">Setting up the bot </h4>
+  <p class="center">ArranBot is super simple to use! Getting ArranBot running on your server is easy. You can invite
+    ArranBot by authenticating it with your account using this link. Bear in mind that you must have Manage Server
+    permissions to be able to do this.</p>
+  <h1 class="center">Music Commands</h1>
+  <h6 class="center"> </h6>
+  <!--Command Table-->
+  <table class="tg" align="center">
+    <thead>
+      <tr>
+        <th class="tg-rz7c"><span style="background-color:#4B5058">Command</span></th>
+        <th class="tg-rz7c"><span style="background-color:#4B5058">Description</span></th>
+        <th class="tg-rz7c"><span style="background-color:#4B5058">Example usage &amp; aliases</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tg-4nuk"><span style="color:#CACACA">$play</span> url</td>
+        <td class="tg-4nuk"><span style="color:#CACACA">Play music from the given URL. See supported sources
+            below.</span></td>
+        <td class="tg-4nuk"><span style="color:#CACACA">$p</span> <a
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><span
+              style="color:#87CEFA;background-color:initial">https://www.youtube.com/watch?v=dQw4w9WgXcQ</span></a></td>
+      </tr>
+      <tr>
+        <td class="tg-akhx"><span style="color:#CACACA">$play</span> words</td>
+        <td class="tg-akhx"><span style="color:#CACACA">Search for a track on YouTube and Soundcloud.</span></td>
+        <td class="tg-akhx"><span style="color:#CACACA">$p Never Gonna Give You Up</span></td>
+      </tr>
+      <tr>
+        <td class="tg-4nuk"><span style="color:#CACACA">$queue</span></td>
+        <td class="tg-4nuk"><span style="color:#CACACA">Display the queue of the current tracks in the playlist.</span>
+        </td>
+        <td class="tg-4nuk"><span style="color:#CACACA">$q</span></td>
+      </tr>
+      <tr>
+        <td class="tg-akhx"><span style="color:#CACACA">$nowplaying</span></td>
+        <td class="tg-akhx"><span style="color:#CACACA">Display the currently playing track.</span></td>
+        <td class="tg-akhx"><span style="color:#CACACA">$np</span></td>
+      </tr>
+      <tr>
+        <td class="tg-4nuk"><span style="color:#CACACA">$skip</span></td>
+        <td class="tg-4nuk"><span style="color:#CACACA">Remove the currently playing track from the queue.</span> <span
+            style="background-color:#272524">$help skip</span> <span style="color:#CACACA">to learn how to skip more
+            than one track</span></td>
+        <td class="tg-4nuk"><span style="color:#CACACA">$s</span></td>
+      </tr>
+      <tr>
+        <td class="tg-4nuk"><span style="color:#CACACA">$stop</span></td>
+        <td class="tg-4nuk"><span style="color:#CACACA">Stop the player and</span> <span
+            style="font-weight:bolder;text-decoration:underline">clear</span> <span style="color:#CACACA">the playlist.
+            Reserved for moderators.</span></td>
+        <td class="tg-4nuk"><span style="color:#CACACA">$st</span></td>
+      </tr>
+      <tr>
+        <td class="tg-akhx"><span style="color:#CACACA">$pause</span></td>
+        <td class="tg-akhx"><span style="color:#CACACA">Pause the player.</span></td>
+        <td class="tg-akhx"><span style="color:#CACACA">$pause</span></td>
+      </tr>
+      <tr>
+        <td class="tg-4nuk"><span style="color:#CACACA">$resume</span></td>
+        <td class="tg-4nuk"><span style="color:#CACACA">Resume the player.</span></td>
+        <td class="tg-4nuk"><span style="color:#CACACA">$resume</span></td>
+      </tr>
+      <tr>
+        <td class="tg-akhx"><span style="color:#CACACA">$join</span></td>
+        <td class="tg-akhx"><span style="color:#CACACA">Make FredBoat join your current voice channel.</span></td>
+        <td class="tg-akhx"><span style="color:#CACACA">$j</span></td>
+      </tr>
+      <tr>
+        <td class="tg-4nuk"><span style="color:#CACACA">$leave</span></td>
+        <td class="tg-4nuk"><span style="color:#CACACA">Make FredBoat leave the current voice channel.</span></td>
+        <td class="tg-4nuk"><span style="color:#CACACA">$lv</span></td>
+      </tr>
+      <tr>
+        <td class="tg-akhx"><span style="color:#CACACA">$repeat</span></td>
+        <td class="tg-akhx"><span style="color:#CACACA">Change the repeat mode. Run this command for more info.</span>
+        </td>
+        <td class="tg-akhx"><span style="color:#CACACA">$rep all</span></td>
+      </tr>
+      <tr>
+        <td class="tg-4nuk"><span style="color:#CACACA">$shuffle</span></td>
+        <td class="tg-4nuk"><span style="color:#CACACA">Toggle shuffle mode.</span></td>
+        <td class="tg-4nuk"><span style="color:#CACACA">$sh</span></td>
+      </tr>
+      <tr>
+        <td class="tg-akhx"><span style="color:#CACACA">$reshuffle</span></td>
+        <td class="tg-akhx"><span style="color:#CACACA">Reshuffle the queue.</span></td>
+        <td class="tg-akhx"><span style="color:#CACACA">$resh</span></td>
+      </tr>
+      <tr>
+        <td class="tg-akhx"><span style="color:#CACACA">$restart</span></td>
+        <td class="tg-akhx"><span style="color:#CACACA">Restart the currently playing track.</span></td>
+        <td class="tg-akhx"><span style="color:#CACACA">$restart</span></td>
+      </tr>
+      <tr>
+        <td class="tg-4nuk"><span style="color:#CACACA">$history</span></td>
+        <td class="tg-4nuk"><span style="color:#CACACA">Show history of recently played tracks.</span></td>
+        <td class="tg-4nuk"><span style="color:#CACACA">$h</span></td>
+      </tr>
+      <tr>
+        <td class="tg-akhx"><span style="color:#CACACA">$help</span> command</td>
+        <td class="tg-akhx"><span style="color:#CACACA">Show all the commands</span></td>
+        <td class="tg-akhx"><span style="color:#CACACA">$help</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+
+
+
+</html>
