@@ -13,7 +13,8 @@ var port = process.env.PORT || 3000
 
 
 // Listen on port 3000, IP defaults to 127.0.0.1
-server.listen(port);
+//server.listen(port);
 
 // Put a bad ass message on the terminal
-console.log('Server running at http://127.0.0.1:' + port + '/');
+//console.log('Server running at http://127.0.0.1:' + port + '/');
+app.listen(port,() =>console.log(`Corriendo en el puerto ${port}`))
